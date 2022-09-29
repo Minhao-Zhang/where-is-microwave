@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/where-is-microwave/static/css/main.073c9b0a.css",
+    "main.js": "/where-is-microwave/static/js/main.830b2139.js",
+    "static/js/787.078e5c5f.chunk.js": "/where-is-microwave/static/js/787.078e5c5f.chunk.js",
+    "static/media/logo.svg": "/where-is-microwave/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/where-is-microwave/index.html",
+    "main.073c9b0a.css.map": "/where-is-microwave/static/css/main.073c9b0a.css.map",
+    "main.830b2139.js.map": "/where-is-microwave/static/js/main.830b2139.js.map",
+    "787.078e5c5f.chunk.js.map": "/where-is-microwave/static/js/787.078e5c5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.830b2139.js"
+  ]
+}
