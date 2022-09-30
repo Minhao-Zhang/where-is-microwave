@@ -1,46 +1,14 @@
-# Getting Started with Create React App
+# Where is Microwave
+## Website URL
+Please visit https://minhao-zhang.github.io/where-is-microwave/
+## Future Plan
+This website/app in its final form will assist users to find available microwave ovens on campus (University of Washington - Seattle). It will also allow users to actively **add** new microwave oven or **report** a malfunctioning microwave oven. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Why I Made this Website
+Starting this year, I moved out of the dorm and I have to cook for myself. I decide I will also pack my lunch for the sack of saving a buck. However, I did not find any instruction on official uw websites that could help me find one. In the searching process, I came across this reddit [post](https://www.reddit.com/r/udub/comments/9jco8p/i_made_a_map_of_all_of_the_microwaves_on_campus/) which listed many available microwaves on campus and someone suggested making an app for this. So I did.
 
-## Available Scripts
+## Acknowledgement
+This idea of making this websites comes from the reddit post I mentioned previously. I greatly appreciate [lucile-lucette](https://www.reddit.com/user/lucile-lucette/) creating the map in the first place. I am aware of previous projects like [this](https://github.com/sonyalao/microwave), but it is no longer maintained so I think I could create a new one. 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+[MIT](LICENSE)
