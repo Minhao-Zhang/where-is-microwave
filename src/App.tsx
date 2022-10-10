@@ -1,7 +1,8 @@
 import L, { icon, LatLng } from 'leaflet';
 import React, { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker } from 'react-leaflet';
 import './App.css';
+import CircleMarkerComponent from './CircleMarkerComponent';
 
 function App() {
   document.title = 'Where is Microwave';
@@ -14,17 +15,21 @@ function App() {
       <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
         integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
         crossOrigin=""></script>
-    
 
-      <MapContainer center={[47.653791, -482.307784]} zoom={16.5} scrollWheelZoom={true}>
+
+      <MapContainer center={[47.653791, -482.307784]} zoom={16.5} scrollWheelZoom={true} >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" 
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
         <LocationMarker />
+        
+        <CircleMarkerComponent />
+      
       </MapContainer>
     </div>
   );
 }
+
 
 function LocationMarker() {
   const [position, setPosition]= useState<LatLng | null>(null);
