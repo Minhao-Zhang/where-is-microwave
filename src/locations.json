@@ -1,7 +1,56 @@
 [
     {
-        "x": 47.6529444,
-        "y": -122.3109501,
-        "msg": "Hello World"
+        "name": "BRK",
+        "x": 47.6603837,
+        "y": -122.3114981,
+        "msg": "Burke Museum, unchecked"
+    },
+    {
+        "name": "PCAR",
+        "x": 47.6590474,
+        "y": -122.3085663,
+        "msg": "PACCER Hall, unchecked"
+    },
+    {
+        "name": "ART",
+        "x": 47.6581447,
+        "y": -122.3063803,
+        "msg": "Art Building, unchecked"
+    },
+    {
+        "name": "OUG",
+        "x": 47.6563626,
+        "y": -122.3102286,
+        "msg": "Odegaard Undergraduate Library, unchecked"
+    },
+    {
+        "name": "HUB",
+        "x": 47.6552738,
+        "y": -122.3052836,
+        "msg": "Husky Union Building, unchecked"
+    },
+    {
+        "name": "MGH",
+        "x": 47.6548846,
+        "y": -122.3078537,
+        "msg": "Mary Gates Hall, unchecked"
+    },
+    {
+        "name": "PAT",
+        "x": 47.6533725,
+        "y": -122.311794,
+        "msg": "Physics / Astronomy Tower , unchecked"
+    },
+    {
+        "name": "ECE",
+        "x": 47.6535676,
+        "y": -122.3065302,
+        "msg": "Electrical & Computer Engineering Building, unchecked"
+    },
+    {
+        "name": "HCK",
+        "x": 47.6519324,
+        "y": -122.3115158,
+        "msg": "Hitchcock Hall, unchecked"
     }
 ]

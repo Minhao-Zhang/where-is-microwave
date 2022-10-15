@@ -10,7 +10,7 @@ class MicrowaveLocationComponent extends Component<{},{}> {
 
         for (let i = 0; i < locations.length; i++) {
             cMarkers.push(
-                <CircleMarker key={i} center={[locations[i].x,locations[i].y]} pathOptions={{ color: 'purple' }} radius={20} >
+                <CircleMarker key={locations[i].name} center={[locations[i].x,locations[i].y]} pathOptions={{ color: 'purple' }} radius={20} >
                 <Popup>{locations[i].msg}</Popup>
                 </CircleMarker>
             );

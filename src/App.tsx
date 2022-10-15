@@ -1,6 +1,6 @@
 import L, { icon, LatLng } from 'leaflet';
 import React, { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, useMap, CircleMarker } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import './App.css';
 import CircleMarkerComponent from './CircleMarkerComponent';
 
