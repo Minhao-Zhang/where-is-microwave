@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/where-is-microwave/static/css/main.b612e82a.css",
-    "main.js": "/where-is-microwave/static/js/main.1262a17f.js",
+    "main.js": "/where-is-microwave/static/js/main.46de2d80.js",
     "index.html": "/where-is-microwave/index.html",
     "main.b612e82a.css.map": "/where-is-microwave/static/css/main.b612e82a.css.map",
-    "main.1262a17f.js.map": "/where-is-microwave/static/js/main.1262a17f.js.map"
+    "main.46de2d80.js.map": "/where-is-microwave/static/js/main.46de2d80.js.map"
   },
   "entrypoints": [
     "static/css/main.b612e82a.css",
-    "static/js/main.1262a17f.js"
+    "static/js/main.46de2d80.js"
   ]
 }
