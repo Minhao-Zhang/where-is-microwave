@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'EncodeSans';
+    src: url('./fonts/EncodeSans/EncodeSansNormal-900-Black.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.bg-custom {
+    --bs-bg-opacity: 1;
+    background-color: #4b2e83;
+}
+
+.navbar-dark {
+    font-family: 'EncodeSans';
+    font-weight: 600;
+    font-style: normal;
+    
+    --bs-navbar-color: rgba(255, 255, 255, 0.485);
+    --bs-navbar-hover-color: #b7a57a;
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #b7a57a;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+}
+
